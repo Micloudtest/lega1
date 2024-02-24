@@ -38,10 +38,6 @@ PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh
 
-# Soong
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
-
 # Fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
